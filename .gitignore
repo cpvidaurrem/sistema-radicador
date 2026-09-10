@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Entornos y secretos
+.env
+.env.*
+!.env.example
+
+# Docker
+*.log
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+
+# PostgreSQL data (si se monta localmente)
+pgdata/
+
+# Node / Angular (para cuando creemos el frontend más adelante)
+node_modules/
+dist/
+
+# OS
+.DS_Store
